@@ -36,3 +36,5 @@
 hoge[hoge](./hoge.md)
 
 huge[houge](./huga/huga.md)
+
+![ほげ](./hoge.png)
