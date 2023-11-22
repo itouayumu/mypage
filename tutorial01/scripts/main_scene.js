@@ -63,9 +63,9 @@ class MainScene extends Phaser.Scene {
          if (this.player2.y <= 100) this.player2_direction = 1;
          // プレイヤーの移動
          if (this.player2_direction == 1) {
-             this.player2.y += 5;// 横方向へ移動を設定
+             this.player2.y += 10;// 横方向へ移動を設定
          } else {
-             this.player2.y -= 5;
+             this.player2.y -= 10;
          }
 
          if (this.player3.y >= D_WIDTH - 250) this.player_direction3 = -1;
